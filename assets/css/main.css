@@ -1734,3 +1734,11 @@ section {
   color: #fff;
 }
 
+.btech-list-items
+{
+  width: 500px;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 10px;
+  align-items: center;
+}

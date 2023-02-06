@@ -89,6 +89,13 @@
 
   <section id="hero" class="hero container-fluid d-flex section-bg">
       <img loading="lazy" src="assets/img/na.png" alt="nacc-a-plus Manipal University" style="z-index: 9;position: fixed;margin: 10px 0 0 4px;width: 64px;float:left;">
+      <a href="https://wa.me/919304203944" target="_blank">
+      <img loading="lazy" src="assets/img/whatsapp.png" alt="whatsapp Manipal University" style="z-index: 9;position: fixed;margin: 10px 0 0 4px;width: 64px;float:right;right: 0;cursor:pointer">
+      </a>
+      <a href="tel:91" target="_blank">
+        <img loading="lazy" src="assets/img/call.png" alt="whatsapp Manipal University" style="z-index: 9;position: fixed;margin: 10px 0 0 4px;width: 64px;float:right;right: 0;top:250px;cursor:pointer">
+      </a>
+      
     <div class="container-fluid">
       <div class="row">
        <!-- <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
@@ -229,20 +236,20 @@
               <div class="col-lg-5 menu-item">
                 
                 <h4>B.TECH</h4>
-                <p>
+                <div class="row" style="width: 550px;display: flex;justify-content: flex-start; align-items: center;">
                 
-                <li><i class="bi bi-check2-all"></i> B.Tech Civil Engineering (CE)</li>
-                <li><i class="bi bi-check2-all"></i> B.Tech Computer Science Engineering (CSE)</li>
-                <li><i class="bi bi-check2-all"></i> B.Tech CSE (Artificial Intelligence & Machine Learning)</li>
-                <li><i class="bi bi-check2-all"></i> B.Tech Electrical and Electronics Engineering (EEE)</li>
-                <li><i class="bi bi-check2-all"></i> B.Tech Electronics and Communication Engineering (ECE)</li>
-                <li><i class="bi bi-check2-all"></i> B.Tech Information Technology (IT)</li>
-                <li><i class="bi bi-check2-all"></i> B.Tech Mechanical Engineering </li>
-                <li><i class="bi bi-check2-all"></i> B.Tech in Artificial Intelligence (AI) & Data Science</li>
-                <li><i class="bi bi-check2-all"></i> B.Tech CSE (Artificial Intelligence & Machine Learning)</li>
+                <li class="btech-list-items"><i class="bi bi-check2-all"></i> B.Tech Civil Engineering (CE)</li>
+                <li class="btech-list-items"><i class="bi bi-check2-all"></i> B.Tech Computer Science Engineering (CSE)</li>
+                <li class="btech-list-items"><i class="bi bi-check2-all"></i> B.Tech CSE (Artificial Intelligence & Machine Learning)</li>
+                <li class="btech-list-items"><i class="bi bi-check2-all"></i> B.Tech Electrical and Electronics Engineering (EEE)</li>
+                <li class="btech-list-items"><i class="bi bi-check2-all"></i> B.Tech Electronics and Communication Engineering (ECE)</li>
+                <li class="btech-list-items"><i class="bi bi-check2-all"></i> B.Tech Information Technology (IT)</li>
+                <li class="btech-list-items"><i class="bi bi-check2-all"></i> B.Tech Mechanical Engineering </li>
+                <li class="btech-list-items"><i class="bi bi-check2-all"></i> B.Tech in Artificial Intelligence (AI) & Data Science</li>
+                <li class="btech-list-items"><i class="bi bi-check2-all"></i> B.Tech CSE (Artificial Intelligence & Machine Learning)</li>
               
 
-                </p>
+                </div>
                 <button> <a href="https://apply.applysmit.in/"><font color="brown"> APPLY NOW</font></a></button>
                 
               </div><!-- Menu Item -->
@@ -266,10 +273,10 @@
                 
                 <h4>M.TECH</h4>
                 <p class="ingredients">
-                     <li><i class="bi bi-check2-all">M.Tech in Computer Science & Engineering</i> </li>
-                <li><i class="bi bi-check2-all">M.Tech in Digital Electronics & Communication Engineering</i></li>
-                <li><i class="bi bi-check2-all">M.Tech in Power Electronics</i></li>
-                <li><i class="bi bi-check2-all">M.Tech in Structural Engineering</i></li>
+                     <li class="btech-list-items"><i class="bi bi-check2-all">M.Tech in Computer Science & Engineering</i> </li>
+                <li class="btech-list-items"><i class="bi bi-check2-all">M.Tech in Digital Electronics & Communication Engineering</i></li>
+                <li class="btech-list-items"><i class="bi bi-check2-all">M.Tech in Power Electronics</i></li>
+                <li class="btech-list-items"><i class="bi bi-check2-all">M.Tech in Structural Engineering</i></li>
        
 
 
