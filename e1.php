@@ -295,7 +295,7 @@
               <div class="form-cont">
                 <div id="lsq-form-wrapper" class="lsq-form-wrapper" style="max-width: 450px; margin: 0 auto;">
                   <div class="form-block-holder block-inner-content"
-                    style="min-height: 150px;width: 250px; margin-left: 15px; margin-right: 15px; border: 1px solid rgb(173, 173, 173); filter: none; background-image: none; background-color: rgb(247, 247, 247); background-position: 0% 0%; background-repeat: no-repeat;"
+                    style="min-height: 150px;width: 250px; border: 1px solid rgb(173, 173, 173); filter: none; background-image: none; background-color: rgb(247, 247, 247); background-position: 0% 0%; background-repeat: no-repeat;"
                     data-hover-bg-color="#f7f7f7" data-bg-color-type="solid">
                     <div class="lp-form-header-wrapper">
                       <div class="lp-form-header-content-wrapper"

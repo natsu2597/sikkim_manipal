@@ -104,11 +104,194 @@ Admissions Open 2022-23</p>
       </div>
     </div>
   </section> -->
+  <div class="modal fade" id="formmodal">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+      </button>
+      <div class="modal-body">
+        <div class="pop-up-form-cont">
+          <div id="lsq-form-wrapper" class="lsq-form-wrapper" style="max-width: 450px; margin: 0 auto;">
+            <div class="form-block-holder block-inner-content"
+              style="min-height: 150px;width: 250px; margin-left: 15px; margin-right: 15px; border: 1px solid rgb(173, 173, 173); filter: none; background-image: none; background-color: rgb(247, 247, 247); background-position: 0% 0%; background-repeat: no-repeat;"
+              data-hover-bg-color="#f7f7f7" data-bg-color-type="solid">
+              <div class="lp-form-header-wrapper">
+                <div class="lp-form-header-content-wrapper"
+                  style="padding: 1px 4px 4px 4px; filter: none; background-image: none; background-color: rgb(71, 71, 71); background-position: 0% 0%; background-repeat: no-repeat;"
+                  data-hover-bg-color="#474747" data-bg-color-type="solid">
+                  <h1 style="font-size:16px;color:#FFFFFF;text-align: center;">Fill Up The Form</h1>
+                </div>
+              </div>
+              <form id="frmrlp-block-40" contenteditable="false" method="Post" enctype="multipart/form-data"
+                action="https://web-in21.mxradon.com/t/FormTracker.aspx" searchkey="EmailAddress"
+                lsq-form-id="lp-form" name="FORM 0">
+                <div id="lp-form" class="lp-form label-placement top" data-fieldlabel-fontsize="12"
+                  data-fieldlabel-fontfamily="Open Sans" data-fieldlabel-fontweight="normal"
+                  data-fieldlabel-color="#787676" data-field-height="30" data-field-color="#999999"
+                  data-field-backgroundcolor="#ffffff" data-field-fontfamily="Open Sans"
+                  data-field-bordercolor="#dedede" data-field-borderwidth="1" data-field-cornerradius="0"
+                  data-field-shadow="0" data-buttontext-fontsize="16" data-buttontext-fontfamily="Open Sans"
+                  data-buttontext-fontweight="bold" data-buttontext-color="#ffffff" data-button-color="#eb6200"
+                  data-button-cornerradius="5" data-button-style="gradient" data-button-alignment="center"
+                  style="width: 92%; margin: 4% 4% 0px;">
+                  <div id="sec-message-wrapper" class="lp-form-section sec-message-wrapper" style="display: none;">
+                    Thank you for your interest.</div>
+                  <div id="sec-error-message-wrapper" class="lp-form-section sec-error-message-wrapper"
+                    style="display: none;">Oops something went wrong.</div>
+                  <div id="sec-fields-wrapper" class="lp-form-section sec-fields-wrapper">
+                    <div id="lp-form-column" class="lp-form-column  ui-sortable" style="">
+                      <div class="field-control-group " data-field-name="FirstName" data-field-type="text"
+                        data-seq="1" style=""> <label class="field-label" for="FirstName"
+                          style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">First Name
+                          <span class="mandatory"
+                            style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">*</span>
+                        </label>
+                        <div class="field-control"> <input type="text" id="FirstName" name="FirstName"
+                            maxlength="100" value="" autocomplete="off"
+                            style="height:30px !important;color:#999999;background-color:#ffffff !important;border:1px solid #dedede !important;border-width:1px !important;border-radius:0px !important;-webkit-border-radius:0px !important;-moz-border-radius:0px !important;-o-border-radius:0px !important;font-family:Open Sans !important;-webkit-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;-moz-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;"
+                            required="required"> </div>
+                        <div class="field-validation-messages"><label class="validation-msg hide"></label></div>
+                      </div>
+                      <div class="field-control-group " data-field-name="LastName" data-field-type="text"
+                        data-seq="2" style=""> <label class="field-label" for="LastName"
+                          style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">Last Name
+                        </label>
+                        <div class="field-control"> <input type="text" id="LastName" name="LastName" maxlength="100"
+                            value="" autocomplete="off"
+                            style="height:30px !important;color:#999999;background-color:#ffffff !important;border:1px solid #dedede !important;border-width:1px !important;border-radius:0px !important;-webkit-border-radius:0px !important;-moz-border-radius:0px !important;-o-border-radius:0px !important;font-family:Open Sans !important;-webkit-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;-moz-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;">
+                        </div>
+                        <div class="field-validation-messages"><label class="validation-msg hide"></label></div>
+                      </div>
+                      <div class="field-control-group" data-field-name="Phone" data-field-type="phone"
+                        data-ph-control-type="phone" data-seq="3"
+                        style="position: relative; opacity: 1; left: 0px; top: 0px;"> <label class="field-label"
+                          for="Phone"
+                          style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">Phone
+                          Number <span class="mandatory"
+                            style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">*</span>
+                        </label>
+                        <div class="field-control"> <input type="text" id="Phone" name="Phone" maxlength="10"
+                            value="" autocomplete="off"
+                            style="height:30px !important;color:#999999;background-color:#ffffff !important;border:1px solid #dedede !important;border-width:1px !important;border-radius:0px !important;-webkit-border-radius:0px !important;-moz-border-radius:0px !important;-o-border-radius:0px !important;font-family:Open Sans !important;-webkit-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;-moz-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;"
+                            data-control-style="height:30px !important;color:#999999;background-color:#ffffff !important;border:1px solid #dedede !important;border-width:1px !important;border-radius:0px !important;-webkit-border-radius:0px !important;-moz-border-radius:0px !important;-o-border-radius:0px !important;font-family:Open Sans !important;-webkit-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;-moz-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;"
+                            data-ph-style="color:#999999 !important;background-color:#ffffff !important;border:1px solid #dedede !important;border-width:1px !important;border-radius:0px !important;-webkit-border-radius:0px !important;-moz-border-radius:0px !important;-o-border-radius:0px !important;font-family:Open Sans !important;-webkit-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;-moz-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;"
+                            jqvalidaterange="true" jqmin="10" jqmax="10" required="required"> </div>
+                        <div class="field-validation-messages"><label class="validation-msg hide"></label></div>
+                      </div>
+                      <div class="field-control-group " data-field-name="EmailAddress" data-field-type="email"
+                        data-seq="4" style=""> <label class="field-label" for="EmailAddress"
+                          style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">Email <span
+                            class="mandatory"
+                            style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">*</span>
+                        </label>
+                        <div class="field-control"> <input type="text" id="EmailAddress" name="EmailAddress"
+                            maxlength="100" value="" autocomplete="off"
+                            style="height:30px !important;color:#999999;background-color:#ffffff !important;border:1px solid #dedede !important;border-width:1px !important;border-radius:0px !important;-webkit-border-radius:0px !important;-moz-border-radius:0px !important;-o-border-radius:0px !important;font-family:Open Sans !important;-webkit-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;-moz-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;"
+                            required="required"> </div>
+                        <div class="field-validation-messages"><label class="validation-msg hide"></label></div>
+                      </div>
+                      <div class="field-control-group " data-field-name="mx_Course" data-field-type="select"
+                        data-seq="5" style=""> <label class="field-label" for="mx_Course"
+                          style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">Course
+                          <span class="mandatory"
+                            style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">*</span>
+                        </label>
+                        <div class="field-control"> <select id="mx_Course" name="mx_Course"
+                            style="height:36px !important;color:#999999;background-color:#ffffff !important;border:1px solid #dedede !important;border-width:1px !important;border-radius:0px !important;-webkit-border-radius:0px !important;-moz-border-radius:0px !important;-o-border-radius:0px !important;font-family:Open Sans !important;-webkit-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0  !important;-moz-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0  !important;box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0  !important;"
+                            required="required">
+                            <option value="">
+                            <option value="Undergraduate" selected="selected">Undergraduate
+                            <option value="Postgraduate">Postgraduate
+                          </select> </div>
+                        <div class="field-validation-messages"><label class="validation-msg hide"></label></div>
+                      </div>
+                      <div class="field-control-group " data-field-name="mx_Program" data-field-type="select"
+                        data-seq="6" style=""> <label class="field-label" for="mx_Program"
+                          style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">Program
+                          <span class="mandatory"
+                            style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">*</span>
+                        </label>
+                        <div class="field-control"> <select id="mx_Program" name="mx_Program"
+                            style="height:36px !important;color:#999999;background-color:#ffffff !important;border:1px solid #dedede !important;border-width:1px !important;border-radius:0px !important;-webkit-border-radius:0px !important;-moz-border-radius:0px !important;-o-border-radius:0px !important;font-family:Open Sans !important;-webkit-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0  !important;-moz-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0  !important;box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0  !important;"
+                            required="required">
+                            <option value="" selected="selected">
+                            <option value="UG">UG
+                            <option value="PG">PG
+                            <option value="Certificate">Certificate
+                            <option value="Diploma">Diploma
+                            <option value="PhD">PhD
+                          </select> </div>
+                        <div class="field-validation-messages"><label class="validation-msg hide"></label></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="sec-button-wrapper" class="lp-form-section sec-button-wrapper btn-align-center"><button
+                      id="form-submit-button" class="form-submit-button gradient btn center-block"
+                      style=" min-width: 148px; min-height: 37px; color: #ffffff; font-family: Open Sans; font-size: 16px; font-weight: bold; border: 1px #eb6200 solid; border-bottom-color:#bc4e00; text-shadow: 0px -1px 1px #eb6200; background-image: linear-gradient(bottom, #bc4e00 10%, #ff9300 100%); background-image: -o-linear-gradient(bottom, #bc4e00 10%, #ff9300 100%); background-image: -moz-linear-gradient(bottom, #bc4e00 10%, #ff9300 100%); background-image: -webkit-linear-gradient(bottom, #bc4e00 10%, #ff9300 100%); background-image: -ms-linear-gradient(bottom, #bc4e00 10%, #ff9300 100%); background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.1, #bc4e00),color-stop(1, #ff9300)); background-color: #bc4e00; border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px; ">
+                      Submit</button></div>
+                  <div id="sec-formdata-wrapper" class="lp-form-section sec-formdata-wrapper"
+                    style="display: none;"><textarea
+                      id="txtLoadedJson">{"LSQLeadFields":[{"Seq":1,"Name":"First Name","SchemaName":"FirstName","Type":"text","CtrlType":"textbox","IsMandatory":"1","DisplayName":"First Name","MinLength":"","MaxLength":"100","DefaultValue":"","MaskText":null,"OptionValues":"","ChildFields":[],"FormLabel":"First Name","Position":"1,1","IsHidden":"0","IsUsedinForm":"1","Height":"0","SMSVerification":"0","AllowOnlyValidData":true,"ParentField":null,"IsUnique":false,"FieldConfiguration":null,"IsSearchKey":false},{"Seq":2,"Name":"Last Name","SchemaName":"LastName","Type":"text","CtrlType":"textbox","IsMandatory":"0","DisplayName":"Last Name","MinLength":"","MaxLength":"100","DefaultValue":"","MaskText":null,"OptionValues":"","ChildFields":[],"FormLabel":"Last Name","Position":"2,1","IsHidden":"0","IsUsedinForm":"1","Height":"0","SMSVerification":"0","AllowOnlyValidData":true,"ParentField":null,"IsUnique":false,"FieldConfiguration":null,"IsSearchKey":false},{"Seq":3,"Name":"Email","SchemaName":"EmailAddress","Type":"email","CtrlType":"email","IsMandatory":"1","DisplayName":"Email","MinLength":"","MaxLength":"100","DefaultValue":"","MaskText":null,"OptionValues":"","ChildFields":[],"FormLabel":"Email","Position":"4,1","IsHidden":"0","IsUsedinForm":"1","Height":"0","SMSVerification":"0","AllowOnlyValidData":true,"ParentField":null,"IsUnique":true,"FieldConfiguration":{"IsDefaultSearchKey":true,"FormatValidationRequired":true,"ValidationRegex":"","ValidationMessage":"","MaxLength":100,"ValidationFor":"","AdditionalConfiguration":{"AllowLeadingZero":false,"DefaultCC":null,"IfCCNotProvided":0,"PhoneNumberFormat":0}},"IsSearchKey":true},{"Seq":4,"Name":"Phone Number","SchemaName":"Phone","Type":"phone","CtrlType":"phone","IsMandatory":"1","DisplayName":"Phone Number","MinLength":"10","MaxLength":"10","DefaultValue":"","MaskText":null,"OptionValues":"","ChildFields":[],"FormLabel":"Phone Number","Position":"3,1","IsHidden":"0","IsUsedinForm":"1","Height":"0","SMSVerification":"0","AllowOnlyValidData":true,"ParentField":null,"IsUnique":true,"FieldConfiguration":{"IsDefaultSearchKey":false,"FormatValidationRequired":true,"ValidationRegex":"","ValidationMessage":"","MinLength":10,"MaxLength":10,"AdditionalConfiguration":{"AllowLeadingZero":false,"DefaultCC":"91","IfCCNotProvided":1,"PhoneNumberFormat":1}},"IsSearchKey":false},{"Seq":212,"Name":"Course","SchemaName":"mx_Course","Type":"select","CtrlType":"dropdown","IsMandatory":"1","DisplayName":"Course","MinLength":"","MaxLength":"100","DefaultValue":"Undergraduate","MaskText":null,"OptionValues":"[{\"Text\":\"\",\"Value\":\"\",\"IsDefault\":false},{\"Text\":\"Undergraduate\",\"Value\":\"Undergraduate\",\"IsDefault\":true},{\"Text\":\"Postgraduate\",\"Value\":\"Postgraduate\",\"IsDefault\":false}]","ChildFields":["mx_Specialization"],"FormLabel":"Course","Position":"5,1","IsHidden":"0","IsUsedinForm":"1","Height":"0","SMSVerification":"0","AllowOnlyValidData":true,"ParentField":"","IsUnique":false,"FieldConfiguration":null,"IsSearchKey":false},{"Seq":372,"Name":"Program","SchemaName":"mx_Program","Type":"select","CtrlType":"dropdown","IsMandatory":"1","DisplayName":"Program","MinLength":"","MaxLength":"100","DefaultValue":"","MaskText":null,"OptionValues":"[{\"Text\":\"\",\"Value\":\"\",\"IsDefault\":true},{\"Text\":\"UG\",\"Value\":\"UG\",\"IsDefault\":false},{\"Text\":\"PG\",\"Value\":\"PG\",\"IsDefault\":false},{\"Text\":\"Certificate\",\"Value\":\"Certificate\",\"IsDefault\":false},{\"Text\":\"Diploma\",\"Value\":\"Diploma\",\"IsDefault\":false},{\"Text\":\"PhD\",\"Value\":\"PhD\",\"IsDefault\":false}]","ChildFields":[],"FormLabel":"Program","Position":"6,1","IsHidden":"0","IsUsedinForm":"1","Height":"0","SMSVerification":"0","AllowOnlyValidData":true,"ParentField":"","IsUnique":false,"FieldConfiguration":null,"IsSearchKey":false}],"Version":"2.0","FormWidth":"276","FormSize":"","FieldLabelColor":"#787676","FieldLabelFontSize":12,"FieldLabelFontWeight":"normal","FieldLabelFontFamily":"Open Sans","FieldHeight":"30","FieldColor":"#999999","FieldBackgroundColor":"#ffffff","FieldFontFamily":"Open Sans","FieldBorderColor":"#dedede","FieldBorderWidth":"1","FieldCornerRadius":"0","FieldShadow":"0","ButtonText":"Submit","ButtonTextFontFamily":"Open Sans","ButtonTextFontSize":16,"ButtonTextFontWeight":"bold","ButtonTextColor":"#ffffff","ButtonColor":"#eb6200","ButtonWidth":"148","ButtonHeight":"37","ButtonCornerRadius":"5","ButtonStyle":"gradient","ButtonAlignment":"center","BackgroundColor":"transparent","Layout":"fluid","LabelPlacement":"top","ContainsCaptcha":false,"ContainsGoogleRecaptcha":false,"GoogleRecaptchaVersion":"","GoogleRecaptchaScore":"0.5","ContainsPasswordField":false,"AccountPhoneNumberFormat":"DEFAULT","DefaultCountryCode":"91","ContainsDPR":false,"ContainsDPRDetails":false}</textarea>
+                  </div>
+                </div><input type="hidden" name="MXHOrgCode" value="63649"><input type="hidden"
+                  name="MXHLandingPageId" value="74435286-5a04-11ed-a19b-0acc9d8b1d02"><input type="hidden"
+                  name="MXHFormBehaviour" value="0"><input type="hidden" name="MXHOutputMessagePosition"
+                  value="0"><input type="hidden" name="MXHFormDataTransfer" value="0"><input type="hidden"
+                  name="MXHRedirectUrl" value="/"><input type="hidden" name="MXHAsc" value="5"><input type="hidden"
+                  name="MXHFormName" value="FORM 0"><input type="hidden" name="MXHIsExternallyUsed" value="1"><input
+                  type="hidden" name="MXHSecretKey" value="EmailAddress">
+              </form>
+              <div class="lp-form-footer-wrapper">
+                <div class="lp-form-footer-content-wrapper" data-hover-bg-color="rgba(0,0,0,0)"
+                  data-bg-color-type="none"
+                  style="filter: none; min-height: 0px; background: none;padding-bottom: 8px;"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Landing Page Id for Tracking -->
+          <script type="text/javascript"> var MXLandingPageId = '74435286-5a04-11ed-a19b-0acc9d8b1d02'; </script>
+          <!-- Script -->
+          <script type="text/javascript"
+            src="https://dwmbily8o2kmd.cloudfront.net/common_r21/js/lsq.form.min.js"></script>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
   <section id="hero" class="hero container-fluid d-flex section-bg">
-      <img loading="lazy" src="assets/img/na.png" alt="nacc-a-plus Manipal University" style="z-index: 9;position: fixed;margin: 10px 0 0 4px;width: 64px;float:left;">
+    <img loading="lazy" src="assets/img/na.png" alt="nacc-a-plus Manipal University"
+      style="z-index: 9;position: fixed;margin: 10px 0 0 4px;width: 64px;float:left;">
+
+    <div class="icon-animation-cont"
+      style="z-index: 9;position: fixed;margin: 10px 0 0 4px;;float:right;right: 0;cursor:pointer;top: 280px">
+      <a href="https://wa.me/919304203944" target="_blank">
+        <img loading="lazy" src="assets/img/whatsapp.png" alt="whatsapp Manipal University" class="contact-icon">
+        <!-- <i class="bi bi-whatsapp contact-icon"></i> -->
+        <span class="contact-text">Whatsapp</span>
+      </a>
+    </div>
+    <div class="icon-animation-cont"
+      style="z-index: 9;position: fixed;margin: 10px 0 0 4px;float:right;right: 0;top:350px;cursor:pointer">
+      <a href="tel:91" target="_blank">
+        <img class="contact-icon" loading="lazy" src="assets/img/call.png" alt="whatsapp Manipal University" s>
+        <span class="contact-text">Toll free</span>
+      </a>
+    </div>
+    <div 
+      style="z-index: 9;position: fixed;margin: 10px 0 0 4px;float:right;right: 0;top:420px;cursor:pointer">
+      <button class="apply-now-btn">APPLY NOW</button>
+    </div>
+    <div 
+      style="z-index: 9;position: fixed;margin: 10px 0 0 4px;float:right;right: 0;top:480px;cursor:pointer">
+      <button class="enquire-btn" data-bs-target="#formmodal" data-bs-toggle="modal"><img class="enquire-img" src="assets/img/enquire.png" alt=""></button>
+        
+    </div>
+
+
     <div class="container-fluid">
       <div class="row">
-       <!-- <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+        <!-- <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
             <h2 data-aos="fade-up"><font face="Roboto" size="15px">DEPARTMENT<br>BUSINESS & COMMERCE</font></h2>
           <p data-aos="fade-up" data-aos-delay="100"><font face="Roboto" size="5px">Programs Approved by AICTE <br>
               Admissions Open 2023-24</font></p>
@@ -118,10 +301,157 @@ Admissions Open 2022-23</p>
           </div>
         </div> -->
         <div class="container-fluid order-1 order-lg-2 text-lg-start w-100 p-0" style="width: 100%">
-          
-          <div class="whole-body-cont position-relative d-flex">
-             <img src="assets/img/main.jpg" class="img-fluid w-100 top-0" style="width: 100%; height: 530px" alt="" data-aos="zoom-out" data-aos-delay="300"> 
-             <div class="form-cont position-absolute top-0 end-0" style="width: 470px;transform: translateX(-50px) translateY(50px);">
+
+          <div class="whole-body-cont">
+            <!-- Starts form -->
+            
+            <img src="assets/img/main.jpg" class="img-fluid w-100 top-0" style="width: 350px; height: 530px" alt=""
+              data-aos="zoom-out" data-aos-delay="300">
+              <div class="form-cont">
+                <div id="lsq-form-wrapper" class="lsq-form-wrapper" style="max-width: 450px; margin: 0 auto;">
+                  <div class="form-block-holder block-inner-content"
+                    style="min-height: 150px;width: 250px; border: 1px solid rgb(173, 173, 173); filter: none; background-image: none; background-color: rgb(247, 247, 247); background-position: 0% 0%; background-repeat: no-repeat;"
+                    data-hover-bg-color="#f7f7f7" data-bg-color-type="solid">
+                    <div class="lp-form-header-wrapper">
+                      <div class="lp-form-header-content-wrapper"
+                        style="padding: 1px 4px 4px 4px; filter: none; background-image: none; background-color: rgb(71, 71, 71); background-position: 0% 0%; background-repeat: no-repeat;"
+                        data-hover-bg-color="#474747" data-bg-color-type="solid">
+                        <h1 style="font-size:16px;color:#FFFFFF;text-align: center;">Fill Up The Form</h1>
+                      </div>
+                    </div>
+                    <form id="frmrlp-block-40" contenteditable="false" method="Post" enctype="multipart/form-data"
+                      action="https://web-in21.mxradon.com/t/FormTracker.aspx" searchkey="EmailAddress"
+                      lsq-form-id="lp-form" name="FORM 0">
+                      <div id="lp-form" class="lp-form label-placement top" data-fieldlabel-fontsize="12"
+                        data-fieldlabel-fontfamily="Open Sans" data-fieldlabel-fontweight="normal"
+                        data-fieldlabel-color="#787676" data-field-height="30" data-field-color="#999999"
+                        data-field-backgroundcolor="#ffffff" data-field-fontfamily="Open Sans"
+                        data-field-bordercolor="#dedede" data-field-borderwidth="1" data-field-cornerradius="0"
+                        data-field-shadow="0" data-buttontext-fontsize="16" data-buttontext-fontfamily="Open Sans"
+                        data-buttontext-fontweight="bold" data-buttontext-color="#ffffff" data-button-color="#eb6200"
+                        data-button-cornerradius="5" data-button-style="gradient" data-button-alignment="center"
+                        style="width: 92%; margin: 4% 4% 0px;">
+                        <div id="sec-message-wrapper" class="lp-form-section sec-message-wrapper" style="display: none;">
+                          Thank you for your interest.</div>
+                        <div id="sec-error-message-wrapper" class="lp-form-section sec-error-message-wrapper"
+                          style="display: none;">Oops something went wrong.</div>
+                        <div id="sec-fields-wrapper" class="lp-form-section sec-fields-wrapper">
+                          <div id="lp-form-column" class="lp-form-column  ui-sortable" style="">
+                            <div class="field-control-group " data-field-name="FirstName" data-field-type="text"
+                              data-seq="1" style=""> <label class="field-label" for="FirstName"
+                                style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">First Name
+                                <span class="mandatory"
+                                  style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">*</span>
+                              </label>
+                              <div class="field-control"> <input type="text" id="FirstName" name="FirstName"
+                                  maxlength="100" value="" autocomplete="off"
+                                  style="height:30px !important;color:#999999;background-color:#ffffff !important;border:1px solid #dedede !important;border-width:1px !important;border-radius:0px !important;-webkit-border-radius:0px !important;-moz-border-radius:0px !important;-o-border-radius:0px !important;font-family:Open Sans !important;-webkit-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;-moz-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;"
+                                  required="required"> </div>
+                              <div class="field-validation-messages"><label class="validation-msg hide"></label></div>
+                            </div>
+                            <div class="field-control-group " data-field-name="LastName" data-field-type="text"
+                              data-seq="2" style=""> <label class="field-label" for="LastName"
+                                style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">Last Name
+                              </label>
+                              <div class="field-control"> <input type="text" id="LastName" name="LastName" maxlength="100"
+                                  value="" autocomplete="off"
+                                  style="height:30px !important;color:#999999;background-color:#ffffff !important;border:1px solid #dedede !important;border-width:1px !important;border-radius:0px !important;-webkit-border-radius:0px !important;-moz-border-radius:0px !important;-o-border-radius:0px !important;font-family:Open Sans !important;-webkit-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;-moz-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;">
+                              </div>
+                              <div class="field-validation-messages"><label class="validation-msg hide"></label></div>
+                            </div>
+                            <div class="field-control-group" data-field-name="Phone" data-field-type="phone"
+                              data-ph-control-type="phone" data-seq="3"
+                              style="position: relative; opacity: 1; left: 0px; top: 0px;"> <label class="field-label"
+                                for="Phone"
+                                style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">Phone
+                                Number <span class="mandatory"
+                                  style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">*</span>
+                              </label>
+                              <div class="field-control"> <input type="text" id="Phone" name="Phone" maxlength="10"
+                                  value="" autocomplete="off"
+                                  style="height:30px !important;color:#999999;background-color:#ffffff !important;border:1px solid #dedede !important;border-width:1px !important;border-radius:0px !important;-webkit-border-radius:0px !important;-moz-border-radius:0px !important;-o-border-radius:0px !important;font-family:Open Sans !important;-webkit-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;-moz-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;"
+                                  data-control-style="height:30px !important;color:#999999;background-color:#ffffff !important;border:1px solid #dedede !important;border-width:1px !important;border-radius:0px !important;-webkit-border-radius:0px !important;-moz-border-radius:0px !important;-o-border-radius:0px !important;font-family:Open Sans !important;-webkit-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;-moz-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;"
+                                  data-ph-style="color:#999999 !important;background-color:#ffffff !important;border:1px solid #dedede !important;border-width:1px !important;border-radius:0px !important;-webkit-border-radius:0px !important;-moz-border-radius:0px !important;-o-border-radius:0px !important;font-family:Open Sans !important;-webkit-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;-moz-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;"
+                                  jqvalidaterange="true" jqmin="10" jqmax="10" required="required"> </div>
+                              <div class="field-validation-messages"><label class="validation-msg hide"></label></div>
+                            </div>
+                            <div class="field-control-group " data-field-name="EmailAddress" data-field-type="email"
+                              data-seq="4" style=""> <label class="field-label" for="EmailAddress"
+                                style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">Email <span
+                                  class="mandatory"
+                                  style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">*</span>
+                              </label>
+                              <div class="field-control"> <input type="text" id="EmailAddress" name="EmailAddress"
+                                  maxlength="100" value="" autocomplete="off"
+                                  style="height:30px !important;color:#999999;background-color:#ffffff !important;border:1px solid #dedede !important;border-width:1px !important;border-radius:0px !important;-webkit-border-radius:0px !important;-moz-border-radius:0px !important;-o-border-radius:0px !important;font-family:Open Sans !important;-webkit-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;-moz-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0 !important;"
+                                  required="required"> </div>
+                              <div class="field-validation-messages"><label class="validation-msg hide"></label></div>
+                            </div>
+                            <div class="field-control-group " data-field-name="mx_Course" data-field-type="select"
+                              data-seq="5" style=""> <label class="field-label" for="mx_Course"
+                                style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">Course
+                                <span class="mandatory"
+                                  style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">*</span>
+                              </label>
+                              <div class="field-control"> <select id="mx_Course" name="mx_Course"
+                                  style="height:36px !important;color:#999999;background-color:#ffffff !important;border:1px solid #dedede !important;border-width:1px !important;border-radius:0px !important;-webkit-border-radius:0px !important;-moz-border-radius:0px !important;-o-border-radius:0px !important;font-family:Open Sans !important;-webkit-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0  !important;-moz-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0  !important;box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0  !important;"
+                                  required="required">
+                                  <option value="">
+                                  <option value="Undergraduate" selected="selected">Undergraduate
+                                  <option value="Postgraduate">Postgraduate
+                                </select> </div>
+                              <div class="field-validation-messages"><label class="validation-msg hide"></label></div>
+                            </div>
+                            <div class="field-control-group " data-field-name="mx_Program" data-field-type="select"
+                              data-seq="6" style=""> <label class="field-label" for="mx_Program"
+                                style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">Program
+                                <span class="mandatory"
+                                  style="color:#787676;font-family:Open Sans;font-weight:normal;font-size:12px;">*</span>
+                              </label>
+                              <div class="field-control"> <select id="mx_Program" name="mx_Program"
+                                  style="height:36px !important;color:#999999;background-color:#ffffff !important;border:1px solid #dedede !important;border-width:1px !important;border-radius:0px !important;-webkit-border-radius:0px !important;-moz-border-radius:0px !important;-o-border-radius:0px !important;font-family:Open Sans !important;-webkit-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0  !important;-moz-box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0  !important;box-shadow:rgba(0,0,0,0) 0 0 0, inset rgba(0,0,0,0) 0 0 0  !important;"
+                                  required="required">
+                                  <option value="" selected="selected">
+                                  <option value="UG">UG
+                                  <option value="PG">PG
+                                  <option value="Certificate">Certificate
+                                  <option value="Diploma">Diploma
+                                  <option value="PhD">PhD
+                                </select> </div>
+                              <div class="field-validation-messages"><label class="validation-msg hide"></label></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="sec-button-wrapper" class="lp-form-section sec-button-wrapper btn-align-center"><button
+                            id="form-submit-button" class="form-submit-button gradient btn center-block"
+                            style=" min-width: 148px; min-height: 37px; color: #ffffff; font-family: Open Sans; font-size: 16px; font-weight: bold; border: 1px #eb6200 solid; border-bottom-color:#bc4e00; text-shadow: 0px -1px 1px #eb6200; background-image: linear-gradient(bottom, #bc4e00 10%, #ff9300 100%); background-image: -o-linear-gradient(bottom, #bc4e00 10%, #ff9300 100%); background-image: -moz-linear-gradient(bottom, #bc4e00 10%, #ff9300 100%); background-image: -webkit-linear-gradient(bottom, #bc4e00 10%, #ff9300 100%); background-image: -ms-linear-gradient(bottom, #bc4e00 10%, #ff9300 100%); background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.1, #bc4e00),color-stop(1, #ff9300)); background-color: #bc4e00; border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px; ">
+                            Submit</button></div>
+                        <div id="sec-formdata-wrapper" class="lp-form-section sec-formdata-wrapper"
+                          style="display: none;"><textarea
+                            id="txtLoadedJson">{"LSQLeadFields":[{"Seq":1,"Name":"First Name","SchemaName":"FirstName","Type":"text","CtrlType":"textbox","IsMandatory":"1","DisplayName":"First Name","MinLength":"","MaxLength":"100","DefaultValue":"","MaskText":null,"OptionValues":"","ChildFields":[],"FormLabel":"First Name","Position":"1,1","IsHidden":"0","IsUsedinForm":"1","Height":"0","SMSVerification":"0","AllowOnlyValidData":true,"ParentField":null,"IsUnique":false,"FieldConfiguration":null,"IsSearchKey":false},{"Seq":2,"Name":"Last Name","SchemaName":"LastName","Type":"text","CtrlType":"textbox","IsMandatory":"0","DisplayName":"Last Name","MinLength":"","MaxLength":"100","DefaultValue":"","MaskText":null,"OptionValues":"","ChildFields":[],"FormLabel":"Last Name","Position":"2,1","IsHidden":"0","IsUsedinForm":"1","Height":"0","SMSVerification":"0","AllowOnlyValidData":true,"ParentField":null,"IsUnique":false,"FieldConfiguration":null,"IsSearchKey":false},{"Seq":3,"Name":"Email","SchemaName":"EmailAddress","Type":"email","CtrlType":"email","IsMandatory":"1","DisplayName":"Email","MinLength":"","MaxLength":"100","DefaultValue":"","MaskText":null,"OptionValues":"","ChildFields":[],"FormLabel":"Email","Position":"4,1","IsHidden":"0","IsUsedinForm":"1","Height":"0","SMSVerification":"0","AllowOnlyValidData":true,"ParentField":null,"IsUnique":true,"FieldConfiguration":{"IsDefaultSearchKey":true,"FormatValidationRequired":true,"ValidationRegex":"","ValidationMessage":"","MaxLength":100,"ValidationFor":"","AdditionalConfiguration":{"AllowLeadingZero":false,"DefaultCC":null,"IfCCNotProvided":0,"PhoneNumberFormat":0}},"IsSearchKey":true},{"Seq":4,"Name":"Phone Number","SchemaName":"Phone","Type":"phone","CtrlType":"phone","IsMandatory":"1","DisplayName":"Phone Number","MinLength":"10","MaxLength":"10","DefaultValue":"","MaskText":null,"OptionValues":"","ChildFields":[],"FormLabel":"Phone Number","Position":"3,1","IsHidden":"0","IsUsedinForm":"1","Height":"0","SMSVerification":"0","AllowOnlyValidData":true,"ParentField":null,"IsUnique":true,"FieldConfiguration":{"IsDefaultSearchKey":false,"FormatValidationRequired":true,"ValidationRegex":"","ValidationMessage":"","MinLength":10,"MaxLength":10,"AdditionalConfiguration":{"AllowLeadingZero":false,"DefaultCC":"91","IfCCNotProvided":1,"PhoneNumberFormat":1}},"IsSearchKey":false},{"Seq":212,"Name":"Course","SchemaName":"mx_Course","Type":"select","CtrlType":"dropdown","IsMandatory":"1","DisplayName":"Course","MinLength":"","MaxLength":"100","DefaultValue":"Undergraduate","MaskText":null,"OptionValues":"[{\"Text\":\"\",\"Value\":\"\",\"IsDefault\":false},{\"Text\":\"Undergraduate\",\"Value\":\"Undergraduate\",\"IsDefault\":true},{\"Text\":\"Postgraduate\",\"Value\":\"Postgraduate\",\"IsDefault\":false}]","ChildFields":["mx_Specialization"],"FormLabel":"Course","Position":"5,1","IsHidden":"0","IsUsedinForm":"1","Height":"0","SMSVerification":"0","AllowOnlyValidData":true,"ParentField":"","IsUnique":false,"FieldConfiguration":null,"IsSearchKey":false},{"Seq":372,"Name":"Program","SchemaName":"mx_Program","Type":"select","CtrlType":"dropdown","IsMandatory":"1","DisplayName":"Program","MinLength":"","MaxLength":"100","DefaultValue":"","MaskText":null,"OptionValues":"[{\"Text\":\"\",\"Value\":\"\",\"IsDefault\":true},{\"Text\":\"UG\",\"Value\":\"UG\",\"IsDefault\":false},{\"Text\":\"PG\",\"Value\":\"PG\",\"IsDefault\":false},{\"Text\":\"Certificate\",\"Value\":\"Certificate\",\"IsDefault\":false},{\"Text\":\"Diploma\",\"Value\":\"Diploma\",\"IsDefault\":false},{\"Text\":\"PhD\",\"Value\":\"PhD\",\"IsDefault\":false}]","ChildFields":[],"FormLabel":"Program","Position":"6,1","IsHidden":"0","IsUsedinForm":"1","Height":"0","SMSVerification":"0","AllowOnlyValidData":true,"ParentField":"","IsUnique":false,"FieldConfiguration":null,"IsSearchKey":false}],"Version":"2.0","FormWidth":"276","FormSize":"","FieldLabelColor":"#787676","FieldLabelFontSize":12,"FieldLabelFontWeight":"normal","FieldLabelFontFamily":"Open Sans","FieldHeight":"30","FieldColor":"#999999","FieldBackgroundColor":"#ffffff","FieldFontFamily":"Open Sans","FieldBorderColor":"#dedede","FieldBorderWidth":"1","FieldCornerRadius":"0","FieldShadow":"0","ButtonText":"Submit","ButtonTextFontFamily":"Open Sans","ButtonTextFontSize":16,"ButtonTextFontWeight":"bold","ButtonTextColor":"#ffffff","ButtonColor":"#eb6200","ButtonWidth":"148","ButtonHeight":"37","ButtonCornerRadius":"5","ButtonStyle":"gradient","ButtonAlignment":"center","BackgroundColor":"transparent","Layout":"fluid","LabelPlacement":"top","ContainsCaptcha":false,"ContainsGoogleRecaptcha":false,"GoogleRecaptchaVersion":"","GoogleRecaptchaScore":"0.5","ContainsPasswordField":false,"AccountPhoneNumberFormat":"DEFAULT","DefaultCountryCode":"91","ContainsDPR":false,"ContainsDPRDetails":false}</textarea>
+                        </div>
+                      </div><input type="hidden" name="MXHOrgCode" value="63649"><input type="hidden"
+                        name="MXHLandingPageId" value="74435286-5a04-11ed-a19b-0acc9d8b1d02"><input type="hidden"
+                        name="MXHFormBehaviour" value="0"><input type="hidden" name="MXHOutputMessagePosition"
+                        value="0"><input type="hidden" name="MXHFormDataTransfer" value="0"><input type="hidden"
+                        name="MXHRedirectUrl" value="/"><input type="hidden" name="MXHAsc" value="5"><input type="hidden"
+                        name="MXHFormName" value="FORM 0"><input type="hidden" name="MXHIsExternallyUsed" value="1"><input
+                        type="hidden" name="MXHSecretKey" value="EmailAddress">
+                    </form>
+                    <div class="lp-form-footer-wrapper">
+                      <div class="lp-form-footer-content-wrapper" data-hover-bg-color="rgba(0,0,0,0)"
+                        data-bg-color-type="none"
+                        style="filter: none; min-height: 0px; background: none;padding-bottom: 8px;"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Landing Page Id for Tracking -->
+                <script type="text/javascript"> var MXLandingPageId = '74435286-5a04-11ed-a19b-0acc9d8b1d02'; </script>
+                <!-- Script -->
+                <script type="text/javascript"
+                  src="https://dwmbily8o2kmd.cloudfront.net/common_r21/js/lsq.form.min.js"></script>
+              </div>
+            <!-- <div class="form-cont position-absolute top-0 end-0" style="width: 470px;transform: translateX(-50px) translateY(50px);">
              <div id="lsq-form-modal" data-form-id="4f3f7f1e-d7a8-4534-b5e7-ea5169729e31" class="modal-v4 fullscreen external lsq-external-form-container" style="opacity: .95;">
     
     <style>
@@ -188,7 +518,8 @@ Admissions Open 2022-23</p>
     </script>
 </div>
 </div>
-             </div>
+             </div> -->
+
           </div>
         </div>
       </div>
