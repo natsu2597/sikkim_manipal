@@ -224,10 +224,10 @@ Admissions Open 2022-23</p>
                 <h4>B.SC.</h4>
                 <p>
 
-                <li><i class="bi bi-check2-all"></i> BCA</li>
-                <li><i class="bi bi-check2-all"></i> B.Sc. (Hons.) Chemistry</li>
-                <li><i class="bi bi-check2-all"></i> B.Sc. (Hons.) Mathematics</li>
-                <li><i class="bi bi-check2-all"></i> B.Sc. (Hons.) Physics</li>
+                <li class="btech-list-items"><i class="bi bi-check2-all"></i> BCA</li>
+                <li class="btech-list-items"><i class="bi bi-check2-all"></i> B.Sc. (Hons.) Chemistry</li>
+                <li class="btech-list-items"><i class="bi bi-check2-all"></i> B.Sc. (Hons.) Mathematics</li>
+                <li class="btech-list-items"><i class="bi bi-check2-all"></i> B.Sc. (Hons.) Physics</li>
                 
               
 
@@ -254,10 +254,10 @@ Admissions Open 2022-23</p>
                 
                 <h4>M.SC</h4>
                 <p class="ingredients">
-                      <li><i class="bi bi-check2-all"></i> MCA</li>
-                <li><i class="bi bi-check2-all"></i> M.Sc. (Hons.) Chemistry</li>
-                <li><i class="bi bi-check2-all"></i> M.Sc. (Hons.) Mathematics</li>
-                <li><i class="bi bi-check2-all"></i> M.Sc. (Hons.) Physics</li>
+                      <li class="btech-list-items"><i class="bi bi-check2-all"></i> MCA</li>
+                <li class="btech-list-items"><i class="bi bi-check2-all"></i> M.Sc. (Hons.) Chemistry</li>
+                <li class="btech-list-items"><i class="bi bi-check2-all"></i> M.Sc. (Hons.) Mathematics</li>
+                <li class="btech-list-items"><i class="bi bi-check2-all"></i> M.Sc. (Hons.) Physics</li>
        
 
 

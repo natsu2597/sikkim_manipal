@@ -5,6 +5,11 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+
+
+
+
 document.addEventListener("DOMContentLoaded", function () {
   pTag = document.querySelector("div");
   newVal = document.createElement("p");
